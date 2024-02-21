@@ -26,9 +26,12 @@
 
   </body>
   <script>
-    const quote = 'I dO nOT lIke gREen eGgS anD HAM';
-
     // Add your code here
+    const quote = 'I dO nOT lIke gREen eGgS anD HAM';
+    var fixedQuote = quote.toLowerCase();
+    fixedQuote = fixedQuote.replace(fixedQuote[0], fixedQuote[0].toUpperCase());
+    fixedQuote = fixedQuote.replace("green eggs and ham","mondongo");
+    const finalQuote = fixedQuote + ".";
 
     // Don't edit the code below here!
 
